@@ -17,9 +17,11 @@
 * Run VM setup script.
     * ```bash <name of folder to place clone>/Z_RUNME.bash```
 * Switch your terminal shell to the repo.
-    * ```cd <name of folder to place clone>/```
-* Use Maven to run/install.
-    * ```mvn clean install```
+    * ```cd <path to clone>/```
+* Start the MongoDB Server
+    * ```bash mongodb_run.bash```
+* Use Maven to run/install the program.
+    * ```mvn spring-boot:run```
 
 ### Work on the current development:
 
@@ -30,7 +32,11 @@
 * Run VM setup script.
     * ```bash <name of folder to place clone>/Z_RUNME.bash```
 * Switch your terminal shell to the repo.
-    * ```cd <name of folder to place clone>/```
+    * ```cd <path to clone>/```
+* At this point you could start the MongoDB server and run the program.
+    * ```bash mongodb_run.bash```
+    * ```mvn spring-boot:run```
+* Use ```ctrl-c``` to stop the program and Cloud9's proccess kill to stop MongoDB
 * Unless you are doing small modifications or fixes, create a feature branch.
     * ```git flow feature start <your features name>```
 * Modify, change, test, whatever, in your feature branch. **(See notes below!)**
