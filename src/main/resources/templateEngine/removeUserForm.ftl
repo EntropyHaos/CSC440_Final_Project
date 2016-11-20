@@ -2,8 +2,8 @@
 	<h2> Remove User </h2>
     	<p id="status"></p>
   	<div class="form-group">
-      		<label for="id">Select User.memberNumber to Remove</label>
-      		<select id="users" name="userMemberNumber"></select>
+      		<label for="id">Select User.entityUserIdNumber to Remove</label>
+      		<select id="users" name="userEntityUserIdNumber"></select>
     	</div>
       <button type="submit" class="btn btn-default">Submit</button>
       <p id="status"></p>

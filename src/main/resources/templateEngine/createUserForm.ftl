@@ -3,8 +3,8 @@
   <form action="" method="POST" role="form">
 
     <div class="form-group">
-      <label for="memberNumber">ID NUMBER</label>
-      <input type="text" class="form-control" id="memberNumber" name="memberNumber" placeholder="Enter ID number for member.">
+      <label for="entityUserIdNumber">User entity ID number</label>
+      <input type="text" class="form-control" id="entityUserIdNumber" name="entityUserIdNumber" placeholder="Enter ID number for new User entity.">
     </div>
 
     <div class="form-group">
@@ -32,9 +32,23 @@
       <input type="number" class="form-control" id="memberZip" name="memberZip">
     </div>
 
+    <div class="form-group" id="dateInput">
+		<label for="memberValidThrough">Valid Through</label><br>
+        <input  type="text" class="form-control" id="memberValidThrough" name="memberValidThrough" data-provide="datepicker">
+    </div>
+
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
 
+<!-- Simple JS function to for datepicker -->
+<script>
+$('#dateInput input').datepicker({
+    format: "mm/dd/yyyy",
+    todayBtn: "linked",
+    autoclose: true,
+    todayHighlight: true
+});
+</script>
 
 <!-- Simple JS Function to convert the data into JSON and Pass it as ajax Call --!>
 <script>

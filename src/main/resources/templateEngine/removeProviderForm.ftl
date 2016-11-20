@@ -2,8 +2,8 @@
 	<h2> Remove Provider </h2>
     	<p id="status"></p>
   	<div class="form-group">
-      		<label for="id">Select Provider.providerNumber to Remove</label>
-      		<select id="providers" name="providerProviderNumber"></select>
+      		<label for="id">Select Provider.entityProviderIdNumber to Remove</label>
+      		<select id="providers" name="providerEntityProviderIdNumber"></select>
     	</div>
       <button type="submit" class="btn btn-default">Submit</button>
       <p id="status"></p>

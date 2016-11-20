@@ -2,8 +2,8 @@
 	<h2> Remove Service </h2>
     	<p id="status"></p>
   	<div class="form-group">
-      		<label for="id">Select Service.providableServiceIdNum to Remove</label>
-      		<select id="services" name="serviceProvidableServiceIdNum"></select>
+      		<label for="id">Select Service.entityServiceIdNumber to Remove</label>
+      		<select id="services" name="serviceEntityServiceIdNumber"></select>
     	</div>
       <button type="submit" class="btn btn-default">Submit</button>
       <p id="status"></p>

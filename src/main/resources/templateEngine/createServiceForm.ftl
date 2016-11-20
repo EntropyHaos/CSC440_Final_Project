@@ -3,8 +3,8 @@
   <form action="" method="POST" role="form">
 
     <div class="form-group">
-      <label for="providableServiceIdNum">ID NUMBER</label>
-      <input type="text" class="form-control" id="providableServiceIdNum" name="providableServiceIdNum" placeholder="Enter ID number providable service.">
+      <label for="entityServiceIdNumber">Service entity ID number</label>
+      <input type="text" class="form-control" id="entityServiceIdNumber" name="entityServiceIdNumber" placeholder="Enter ID number for new Service entity.">
     </div>
 
     <div class="form-group">
@@ -33,6 +33,15 @@
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
 
+<!-- Simple JS function to for datepicker -->
+<script>
+$('#dateInput input').datepicker({
+    format: "mm/dd/yyyy",
+    todayBtn: "linked",
+    autoclose: true,
+    todayHighlight: true
+});
+</script>
 
 <!-- Simple JS Function to convert the data into JSON and Pass it as ajax Call --!>
 <script>

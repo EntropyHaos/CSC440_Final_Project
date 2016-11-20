@@ -4,8 +4,8 @@
     <div class="form-group">
 
     <div class="form-group">
-      <label for="providerNumber">ID NUMBER</label>
-      <input type="text" class="form-control" id="providerNumber" name="providerNumber" placeholder="Enter ID number for provider.">
+      <label for="entityProviderIdNumber">Provider entity ID number</label>
+      <input type="text" class="form-control" id="entityProviderIdNumber" name="entityProviderIdNumber" placeholder="Enter ID number for new Provider entity.">
     </div>
 
     <div class="form-group">

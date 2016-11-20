@@ -4,8 +4,8 @@
     <div class="form-group">
 
     <div class="form-group">
-      <label for="providableServiceIdNum">ID NUMBER</label>
-      <input type="text" class="form-control" id="providableServiceIdNum" name="providableServiceIdNum" placeholder="Enter ID number providable service.">
+      <label for="entityServiceIdNumber">Service entity ID number</label>
+      <input type="text" class="form-control" id="entityServiceIdNumber" name="entityServiceIdNumber" placeholder="Enter ID number for new Service entity.">
     </div>
 
     <div class="form-group">

@@ -4,8 +4,8 @@
     <div class="form-group">
 
     <div class="form-group">
-      <label for="memberNumber">ID NUMBER</label>
-      <input type="text" class="form-control" id="memberNumber" name="memberNumber" placeholder="Enter ID number for member.">
+      <label for="entityUserIdNumber">User entity ID number</label>
+      <input type="text" class="form-control" id="entityUserIdNumber" name="entityUserIdNumber" placeholder="Enter ID number for new User entity.">
     </div>
 
     <div class="form-group">
@@ -31,6 +31,11 @@
     <div class="form-group">
       <label for="memberZip">ZIP CODE</label>
       <input type="number" class="form-control" id="memberZip" name="memberZip">
+    </div>
+
+    <div class="form-group" id="dateInput">
+		<label for="memberValidThrough">Valid Through</label><br>
+        <input  type="text" class="form-control" id="memberValidThrough" name="memberValidThrough" data-provide="datepicker">
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>

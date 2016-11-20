@@ -4,8 +4,8 @@
     <div class="form-group">
 
     <div class="form-group">
-      <label for="chocoServiceProvidedIdNumber">ChocoServiceProvided ID NUMBER</label>
-      <input type="text" class="form-control" id="chocoServiceProvidedIdNumber" name="chocoServiceProvidedIdNumber" placeholder="Enter ID number for ChocoServiceProvided.">
+      <label for="entityBillableIdNumber">Billable entity ID number</label>
+      <input type="text" class="form-control" id="entityBillableIdNumber" name="entityBillableIdNumber" placeholder="Enter ID number for new Billable entity.">
     </div>
 
     <div class="form-group">
@@ -18,14 +18,14 @@
       <input type="text" class="form-control" id="providerNumberServicing" name="providerNumberServicing" placeholder="Enter ID of servicing provider.">
     </div>
 
-    <div class="form-group">
-      <label for="dateServiced">Date Serviced</label>
-      <input type="text" class="form-control" id="dateServiced" name="dateServiced" placeholder="Enter date service was provided.">
+    <div class="form-group" id="dateInput">
+		<label for="dateServiced">Date Serviced</label><br>
+        <input  type="text" class="form-control" id="dateServiced" name="dateServiced" data-provide="datepicker">
     </div>
 
-    <div class="form-group">
-      <label for="dateServicedRecorded">Date Recorded</label>
-      <input type="text" class="form-control" id="dateServicedRecorded" name="dateServicedRecorded" placeholder="Enter date the service was recorded.">
+    <div class="form-group" id="dateInput">
+		<label for="dateServicedRecorded">Date Recorded</label><br>
+        <input  type="text" class="form-control" id="dateServicedRecorded" name="dateServicedRecorded" data-provide="datepicker">
     </div>
 
     <div class="form-group">

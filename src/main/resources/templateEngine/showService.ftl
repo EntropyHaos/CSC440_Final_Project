@@ -15,7 +15,7 @@
  			$.getJSON('/getJsonServiceList',function(json){
     			if ( json.length == 0 ) {
         			console.log("NO DATA!");
-        			$(".serviceTable").text("No Users Found");
+        			$(".serviceTable").text("No Services Found");
     			}
     			else {
     				var tbl = new awesomeTableJs({

@@ -15,7 +15,7 @@
  			$.getJSON('/getJsonProviderList',function(json){
     			if ( json.length == 0 ) {
         			console.log("NO DATA!");
-        			$(".providerTable").text("No Users Found");
+        			$(".providerTable").text("No Providers Found");
     			}
     			else {
     				var tbl = new awesomeTableJs({

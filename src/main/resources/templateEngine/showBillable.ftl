@@ -15,7 +15,7 @@
  			$.getJSON('/getJsonBillableList',function(json){
     			if ( json.length == 0 ) {
         			console.log("NO DATA!");
-        			$(".billableTable").text("No Users Found");
+        			$(".billableTable").text("No Billables Found");
     			}
     			else {
     				var tbl = new awesomeTableJs({

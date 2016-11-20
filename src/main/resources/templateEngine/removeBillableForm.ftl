@@ -2,8 +2,8 @@
 	<h2> Remove Billable </h2>
     	<p id="status"></p>
   	<div class="form-group">
-      		<label for="id">Select Billable.chocoServiceProvidedIdNumber to Remove</label>
-      		<select id="billables" name="billableChocoServiceProvidedIdNumber"></select>
+      		<label for="id">Select Billable.entityBillableIdNumber to Remove</label>
+      		<select id="billables" name="billableEntityBillableIdNumber"></select>
     	</div>
       <button type="submit" class="btn btn-default">Submit</button>
       <p id="status"></p>
