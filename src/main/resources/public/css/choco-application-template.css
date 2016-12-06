@@ -1,0 +1,18 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template, .under_construction-template, .home-page-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+/* Added by Haos to manage currency input.*/
+.currency {
+  padding-left:12px;
+}
+
+.currency-symbol {
+  position:absolute;
+  padding: 7px 4px;
+}

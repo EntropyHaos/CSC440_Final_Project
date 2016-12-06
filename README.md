@@ -1,4 +1,6 @@
-# CSC440 Final Project
+# CSC440 Final Project - TEAM FIVE
+
+**Version : -0.009** *(yes, a negative value...)*
 
 ## Wat?
 
